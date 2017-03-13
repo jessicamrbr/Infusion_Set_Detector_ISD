@@ -24,10 +24,10 @@ Most medical consultations in emergency and first aid institutions carry the adm
 
 The equipment for serum (Figure 1) includes a set of accessories, consisting of a punch, dripper, drip chamber, drug injection area, flow regulator and flexible tube. It should be used in the infusion of serum, with or without medicines, including the two situations presented.
 
-<p align="center">
-    <img alt="Figure 1 - Serum equipment" src="https://raw.githubusercontent.com/jessicamrbr/Infusion_Set_Detector_ISD/master/Figures/Serum_equipment.png" width="60%">
-    _Figure 1 - Serum equipment_
-</p>
+_<p align="center">
+    <img alt="Figure 1 - Serum equipment" src="https://raw.githubusercontent.com/jessicamrbr/Infusion_Set_Detector_ISD/master/Figures/Serum_equipment.png" width="60%"></br>
+    Figure 1 - Serum equipment
+</p>_
 
 ## Justification
 
