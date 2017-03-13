@@ -49,20 +49,20 @@ The electronic circuitry consisted of an LTE-302 and LTR-301 optical transceiver
 
 The dome chamber state sensor was built with an optical emitter and receiver. As an emitter an LTE-302 precision infrared LED was used, and as receiver an LTR-301 precision phototransistor, also sensitive to infrared. When there is a passage of liquid between the transmitter and the receiver, less signal is captured, because the light beam emitted by the LED will have part reflected, refracted or absorbed, on its way to the receiver, creating a partial cut region.
 
-<center>
-    <img alt="Photo 1 - Receiver (LTR-301) and emitter (LTE-302) precision infrared" src="https://raw.githubusercontent.com/jessicamrbr/Infusion_Set_Detector_ISD/master/Photos/Receiver_LTR-301_and_emitter_LTE-302_precision_infrared.png" width="50%">
-    _Photo 1 - Receiver (LTR-301) and emitter (LTE-302) precision infrared_
-</center>
+_<p align="center">
+    <img alt="Photo 1 - Receiver (LTR-301) and emitter (LTE-302) precision infrared" src="https://raw.githubusercontent.com/jessicamrbr/Infusion_Set_Detector_ISD/master/Photos/Receiver_LTR-301_and_emitter_LTE-302_precision_infrared.png" width="50%"></br>
+    Photo 1 - Receiver (LTR-301) and emitter (LTE-302) precision infrared
+</p>_
 
 It is important to note that other types of alternative infrared sensor models, such as the TSOP38238 or GP1A57HRJ00F, were tested at the project design stage and did not achieve the same satisfactory results. The specifications of this sensor model was an important feature. The quality according to the producers did not influence the result, two different brands were tested, to ensure the operation when switching between brands, an adjustment to the values ​​programmed to recognize the state of the equipment was sufficient.
 
 Transistors are components, constructed from semiconductor materials. It has three terminals. When a current is applied at its base, the resistance of the current passing through the internal material between the other terminals is changed. In the case of the infrared photo-transistor, the mechanism is the same, but the resistance is changed depending on the amount of infrared rather than electricity.
 The resistor divider is a configuration of two resistors connected in series, as shown in figure 2. Since the association is fed by the input voltage (Uentrada), the output voltage (Utilized) refers to the resistor (R below). The expression that allows calculation of Usida is indicated under figure 2. Replacing the resistor Rde below, by the phototransistor LTR-301 we have variable bass, consequently Usage will also vary.
 
-<center>
-    <img alt="Figure 2 - Schematic and theory of the voltage divider" src="https://raw.githubusercontent.com/jessicamrbr/Infusion_Set_Detector_ISD/master/Figures/Schematic_and_theory_of_the_voltage_divider.png" width="50%">
-    _Figure 2 - Schematic and theory of the voltage divider_
-</center>
+_<p align="center">
+    <img alt="Figure 2 - Schematic and theory of the voltage divider" src="https://raw.githubusercontent.com/jessicamrbr/Infusion_Set_Detector_ISD/master/Figures/Schematic_and_theory_of_the_voltage_divider.png" width="50%"></br>
+    Figure 2 - Schematic and theory of the voltage divider
+</p>_
 
 This circuit sensor region delivers a low voltage at the output when the LTR-301 is receiving an intense infrared rate and a high voltage when the LTR-301 is receiving a small infrared rate. The voltage divider circuit gives an output voltage that changes with the amount of infrared.
 
@@ -70,31 +70,31 @@ The Arduino allows the comparison of the electrical voltages delivered to its an
 
 When there is no significant loss of infrared, there is no liquid inside the equipment. When there is a large loss, the device recognizes that there is material between the sensors in the liquid case.
 
-<center>
-    <img alt="Figure 3 - Explanatory diagram of operation" src="https://raw.githubusercontent.com/jessicamrbr/Infusion_Set_Detector_ISD/master/Figures/Explanatory_diagram_of_operation.png" width="50%">
-    _Figure 3 - Explanatory diagram of operation_
-</center>
+_<p align="center">
+    <img alt="Figure 3 - Explanatory diagram of operation" src="https://raw.githubusercontent.com/jessicamrbr/Infusion_Set_Detector_ISD/master/Figures/Explanatory_diagram_of_operation.png" width="50%"></br>
+    Figure 3 - Explanatory diagram of operation
+</p>
 
 With the theoretical circuit and sensors designed. Development began in perforated plate for prototyping (Protoboard), where the first tests and stabilization of the operation of the complete theoretical circuit were carried out.
 
-<center>
-    <img alt="Figure 4 - Electrical scheme assembled in protoboard" src="https://raw.githubusercontent.com/jessicamrbr/Infusion_Set_Detector_ISD/master/Figures/Electrical_scheme_assembled_in_protoboard.png" width="50%">
-    _Figure 4 - Electrical scheme assembled in protoboard_
-</center>
+_<p align="center">
+    <img alt="Figure 4 - Electrical scheme assembled in protoboard" src="https://raw.githubusercontent.com/jessicamrbr/Infusion_Set_Detector_ISD/master/Figures/Electrical_scheme_assembled_in_protoboard.png" width="50%"></br>
+    Figure 4 - Electrical scheme assembled in protoboard
+</p>_
 
 Soon after, the first prototypes were assembled, there was a great effort to minimize and compact the size of the device as much as possible.
 
-<center>
-    <img alt="Figure 5 - Making the printed circuit board (PCB)" src="https://raw.githubusercontent.com/jessicamrbr/Infusion_Set_Detector_ISD/master/Figures/Making_the_printed_circuit_board_PCB.png" width="50%">
-    _Figure 5 - Making the printed circuit board (PCB)_
-</center>
+_<p align="center">
+    <img alt="Figure 5 - Making the printed circuit board (PCB)" src="https://raw.githubusercontent.com/jessicamrbr/Infusion_Set_Detector_ISD/master/Figures/Making_the_printed_circuit_board_PCB.png" width="50%"></br>
+    Figure 5 - Making the printed circuit board (PCB)
+</p>_
 
 And
 
-<center>
-    <img alt="Figure 6 - Circuit diagram" src="https://raw.githubusercontent.com/jessicamrbr/Infusion_Set_Detector_ISD/master/Figures/Circuit_diagram.png" width="50%">
-    _Figure 6 - Circuit diagram_
-</center>
+_<p align="center">
+    <img alt="Figure 6 - Circuit diagram" src="https://raw.githubusercontent.com/jessicamrbr/Infusion_Set_Detector_ISD/master/Figures/Circuit_diagram.png" width="50%"></br>
+    Figure 6 - Circuit diagram
+</p>_
 
 At the beginning of the project some components needed for the construction of the prototype were only found abroad, as is the case with special sensors, which came from the United States. In the course of the research, all materials were located for sale in Brazil. The materials that make up the list required for the construction of the prototype are easily found on the internet or in electronic components store.
 
