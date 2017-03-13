@@ -1,7 +1,7 @@
-# Sensor para fluxo em equipo (Infusion Set Detector - ISD)
+# Infusion Set Detector - ISD
 
-Orientação do projeto: Paulo Schor e Milton Yogi
-Dessenvolvimento: Jéssica Moura Ribeiro
+Project orientation: Paulo Schor e Milton Yogi
+Development: Jéssica Moura Ribeiro
 
 ## Summary
  
@@ -28,7 +28,7 @@ Most medical consultations in emergency and first aid institutions carry the adm
 
 The equipment for serum (Figure 1) includes a set of accessories, consisting of a punch, dripper, drip chamber, drug injection area, flow regulator and flexible tube. It should be used in the infusion of serum, with or without medicines, including the two situations presented. [1]
 
-![Figure 1 - Serum equipment](https://octodex.github.com/images/yaktocat.png)
+![Figure 1 - Serum equipment](https://raw.githubusercontent.com/jessicamrbr/Infusion_Set_Detector_ISD/master/Figures/Serum_equipment.png){:width="50%"}
 
 Figure 1 - Serum equipment
 
